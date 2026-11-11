@@ -1,0 +1,4 @@
+{"raw_record": "{malformed json", "reason": "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)", "row_number": 8, "source_file": "data\\sample_events.jsonl"}
+{"raw_record": "{\"event_id\":\"evt-missing-ts\",\"customer_id\":\"customer-003\",\"operation\":\"delete\"}", "reason": "missing required field(s): event_ts", "row_number": 9, "source_file": "data\\sample_events.jsonl"}
+{"raw_record": "{\"event_id\":\"evt-bad-operation\",\"customer_id\":\"customer-003\",\"operation\":\"merge\",\"event_ts\":\"2025-01-01T00:00:00Z\"}", "reason": "operation must be insert, update, or delete", "row_number": 10, "source_file": "data\\sample_events.jsonl"}
+{"raw_record": "{\"event_id\":\"evt-schema-change\",\"customer_id\":\"customer-003\",\"operation\":\"delete\",\"event_ts\":\"2025-01-01T00:00:00Z\",\"unexpected_field\":\"not-supported\"}", "reason": "unexpected field(s): unexpected_field", "row_number": 11, "source_file": "data\\sample_events.jsonl"}

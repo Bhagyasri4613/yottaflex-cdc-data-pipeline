@@ -1,0 +1,38 @@
+{
+  "current_state_csv": "data\\sample_customer_current.csv",
+  "database_snapshot": {
+    "current_row_count": 2,
+    "deleted_row_count": 2
+  },
+  "event_history_by_operation": {
+    "delete": 2,
+    "insert": 1,
+    "update": 3
+  },
+  "metrics": {
+    "current_applied_count": 4,
+    "duplicate_count": 1,
+    "duration_seconds": 0.056244,
+    "history_inserted_count": 6,
+    "input_count": 11,
+    "input_records_per_second": 195.58,
+    "output_count": 2,
+    "rejected_count": 4,
+    "run_id": "3402f11a-a286-4ce7-b8c1-cb8d236e8fb7",
+    "stale_count": 2,
+    "status": "success_with_rejects"
+  },
+  "reconciliation": {
+    "all_checks_passed": true,
+    "history_equals_current_applied_plus_stale": true,
+    "input_equals_history_plus_duplicates_plus_rejects": true
+  },
+  "run": {
+    "ended_at": "2026-11-11T13:10:34.498501Z",
+    "failure_reason": null,
+    "run_id": "3402f11a-a286-4ce7-b8c1-cb8d236e8fb7",
+    "source_file": "data\\sample_events.jsonl",
+    "started_at": "2026-11-11T13:10:34.486126Z",
+    "status": "success_with_rejects"
+  }
+}

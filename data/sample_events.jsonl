@@ -1,0 +1,11 @@
+{"event_id":"evt-001","customer_id":"customer-001","operation":"insert","event_ts":"2025-01-01T09:00:00Z","customer_name":"Ada Lovelace","email":"ada@example.test","status":"active"}
+{"event_id":"evt-002","customer_id":"customer-001","operation":"update","event_ts":"2025-01-03T09:00:00Z","customer_name":"Ada Byron","email":"ada.byron@example.test","status":"active"}
+{"event_id":"evt-003","customer_id":"customer-001","operation":"delete","event_ts":"2025-01-05T09:00:00Z"}
+{"event_id":"evt-004","customer_id":"customer-001","operation":"update","event_ts":"2025-01-04T09:00:00Z","customer_name":"Late Ada","email":"late@example.test","status":"active"}
+{"event_id":"evt-005","customer_id":"customer-002","operation":"delete","event_ts":"2025-01-02T09:00:00Z"}
+{"event_id":"evt-006","customer_id":"customer-002","operation":"update","event_ts":"2025-01-01T09:00:00Z","customer_name":"Earlier Grace","email":"grace@example.test","status":"inactive"}
+{"event_id":"evt-002","customer_id":"customer-001","operation":"update","event_ts":"2025-01-03T09:00:00Z","customer_name":"Ada Byron","email":"ada.byron@example.test","status":"active"}
+{malformed json
+{"event_id":"evt-missing-ts","customer_id":"customer-003","operation":"delete"}
+{"event_id":"evt-bad-operation","customer_id":"customer-003","operation":"merge","event_ts":"2025-01-01T00:00:00Z"}
+{"event_id":"evt-schema-change","customer_id":"customer-003","operation":"delete","event_ts":"2025-01-01T00:00:00Z","unexpected_field":"not-supported"}

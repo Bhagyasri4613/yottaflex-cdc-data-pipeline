@@ -1,0 +1,7 @@
+event_id,customer_id,operation,event_ts,customer_name,email,status,source_file,run_id
+evt-001,customer-001,insert,2025-01-01T09:00:00.000000Z,Ada Lovelace,ada@example.test,active,data\sample_events.jsonl,3402f11a-a286-4ce7-b8c1-cb8d236e8fb7
+evt-002,customer-001,update,2025-01-03T09:00:00.000000Z,Ada Byron,ada.byron@example.test,active,data\sample_events.jsonl,3402f11a-a286-4ce7-b8c1-cb8d236e8fb7
+evt-004,customer-001,update,2025-01-04T09:00:00.000000Z,Late Ada,late@example.test,active,data\sample_events.jsonl,3402f11a-a286-4ce7-b8c1-cb8d236e8fb7
+evt-003,customer-001,delete,2025-01-05T09:00:00.000000Z,,,,data\sample_events.jsonl,3402f11a-a286-4ce7-b8c1-cb8d236e8fb7
+evt-006,customer-002,update,2025-01-01T09:00:00.000000Z,Earlier Grace,grace@example.test,inactive,data\sample_events.jsonl,3402f11a-a286-4ce7-b8c1-cb8d236e8fb7
+evt-005,customer-002,delete,2025-01-02T09:00:00.000000Z,,,,data\sample_events.jsonl,3402f11a-a286-4ce7-b8c1-cb8d236e8fb7

@@ -1,0 +1,3 @@
+customer_id,customer_name,email,status,is_deleted,last_event_ts,last_event_id
+customer-001,Ada Byron,ada.byron@example.test,active,1,2025-01-05T09:00:00.000000Z,evt-003
+customer-002,,,,1,2025-01-02T09:00:00.000000Z,evt-005
